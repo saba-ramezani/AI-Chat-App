@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.sectionPadding {
+  @apply px-[60px] py-[40px]
+}
+
+
+.flexCenter {
+  @apply flex justify-center items-center
+}
+
+
+
