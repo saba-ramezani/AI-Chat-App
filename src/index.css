@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  color-scheme: dark;
+}
+
+
+
 
 .sectionPadding {
   @apply px-[60px] py-[40px]
@@ -11,6 +20,15 @@
 
 .flexCenter {
   @apply flex justify-center items-center
+}
+
+
+.heroBackground {
+  background-image: url('./assets/hero/hero-background.jpg');
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 

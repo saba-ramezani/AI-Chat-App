@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='flex flex-col bg-black'>
+      <div className='overflow-hidden bg-black'>
         <Navbar />
         <Hero />
         <Benefits />
