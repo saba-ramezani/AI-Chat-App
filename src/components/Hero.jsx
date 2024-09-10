@@ -5,10 +5,10 @@ import { companyLogos } from '../constants'
 
 const Hero = () => {
   return (
-    <section className="mt-[7.5rem] justify-center items-center bg-black">
+    <section className="mt-[7.5rem] justify-center items-center bg-dark-elliptical-gradient">
 
       
-      <div className='flexCenter bg-black relative'>
+      <div className='flexCenter relative'>
         <div className='absolute top-[16rem] z-5 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem] flex-col justify-center items-center flex'>
           <h1 className="h1 mb-6">
             Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}

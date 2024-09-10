@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='overflow-hidden bg-black'>
+      <div className='overflow-hidden bg-dark-elliptical-gradient'>
         <Navbar />
         <Hero />
         <Benefits />
