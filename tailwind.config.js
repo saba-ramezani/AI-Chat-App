@@ -72,6 +72,8 @@ export default {
           "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
         "dark-elliptical-gradient": 
           "linear-gradient(90deg, rgba(14, 13, 21, 1) 0%, rgba(16, 14, 25, 1) 50%, rgba(14, 13, 21, 1) 100%)",
+        "circulat-pink-dark-gradient": 
+          "radial-gradient(circle at 50% 50%, rgba(94, 87, 141, 0.2) 0%, rgba(14, 13, 21, 1) 100%);",  
       },
     },
   },
