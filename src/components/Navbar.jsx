@@ -4,7 +4,7 @@ import { navigation } from '../constants'
 
 const Navbar = () => {
   return (
-    <div className='fixed z-50 flex w-full sectionPadding justify-between items-center flex-row bg-[rgba(0,0,0,0.9)] border-spacing-0 border-b-[1px] border-b-gray-800 '>
+    <div className='fixed z-50 flex w-full px-[10%] py-[40px] justify-between items-center flex-row bg-[rgba(0,0,0,0.9)] border-spacing-0 border-b-[1px] border-b-gray-800 '>
       <a href="/" className='cursor-pointer'>
         <img src={brainwave} alt="logo" className='hover:scale-105 transition-all' />
       </a>

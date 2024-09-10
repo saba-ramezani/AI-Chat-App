@@ -14,7 +14,7 @@
 
 
 .sectionPadding {
-  @apply px-[10%] py-[40px]
+  @apply px-[10%] border-t-[1px] border-x-[1px] border-gray-800 mx-[40px]
 }
 
 
