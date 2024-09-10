@@ -3,8 +3,9 @@ import Arrow from "../assets/svg/Arrow";
 import { benefits } from '../constants';
 
 const BenefitCard = ({title, text, backgroundUrl, iconUrl, imageUrl}) => (
-  <div className='bg-gray-950 p-10 flex-col max-w-[400px] rounded-[20px] relative'>
-    <img src={imageUrl} alt="robot" className='bg-cover absolute w-full h-full top-0 left-0 opacity-0 hover:opacity-20 transition-opacity object-cover'  />
+  <div className=' p-10 flex-col max-w-[400px] rounded-[20px] relative'>
+    <img src={imageUrl} alt="robot" className='z-1 bg-cover absolute w-full h-full top-0 left-0 opacity-0 hover:opacity-20 transition-opacity object-cover'  />
+    <img src={backgroundUrl} alt="robot" className='z-0 opacity-80 bg-cover absolute w-full h-full top-0 left-0 object-cover'  />
     <h5 className='h5 mb-6'>{title}</h5>
     <p className='body-2 mb-20 text-n-3'>{text}</p>
     <div className='flex flex-row justify-between'>
