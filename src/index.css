@@ -22,6 +22,13 @@
   @apply flex justify-center items-center
 }
 
+.center {
+  @apply absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]
+}
+
+
+/* Positioning images in a circle */
+
 
 .heroBackground {
   background-image: url('./assets/hero/hero-background.jpg');
