@@ -21,7 +21,7 @@ const BenefitCard = ({id, title, text, backgroundUrl, iconUrl, imageUrl}) => (
 
 const Benefits = () => {
   return (
-    <section className='sectionPadding flexCenter relative mt-[-100px] flex-col pt-[100px]'>
+    <section className='sectionPadding flexCenter relative mt-[-100px] flex-col pt-[100px] pb-[100px]'>
       <h1 className='h1 text-center'>Chat Smarter, Not Harder <br /> with Brainwave</h1>
       <div className='flex flex-row flex-wrap gap-[5rem] mt-[10rem] items-center justify-center'>
         {benefits.map((benefit, index) => (
