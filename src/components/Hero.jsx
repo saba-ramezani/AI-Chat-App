@@ -5,7 +5,7 @@ import { companyLogos } from '../constants'
 
 const Hero = () => {
   return (
-    <section className="mt-[7.5rem] justify-center items-center bg-dark-elliptical-gradient">
+    <section className="mt-[7.5rem] justify-center items-center">
 
       
       <div className='flexCenter relative'>
@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
         <div className='absolute h-[50px] w-full bottom-[20%] sectionPadding flexCenter flex-col gap-5'>
           <span className='font-code text-gray-400'>HELPING PEOPLE CREATE BEAUTIFUL CONTENT AT</span>
-          <div className='flex flex-row w-[100%] sectionPadding flexCenter mt-[5rem]'>
+          <div className='flex flex-row w-[100%] sectionPadding flexCenter mt-[3rem]'>
             {companyLogos.map((logo, index) => (
               <img src={logo} alt='logo' className='mx-[5rem] hover:scale-110 transition-all'/>
             ))}
