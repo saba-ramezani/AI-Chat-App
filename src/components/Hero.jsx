@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {heroBackground, robot, curve} from '../assets'
+import { companyLogos } from '../constants'
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
       
       <div className='flexCenter bg-black relative'>
         <div className='absolute top-[16rem] z-5 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem] flex-col justify-center items-center flex'>
-        <h1 className="h1 mb-6">
+          <h1 className="h1 mb-6">
             Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
             <span className="inline-block relative">
               Brainwave{" "}
@@ -31,7 +32,7 @@ const Hero = () => {
             href="#getstarted" 
             className='font-mono hover:scale-105 text-[20px] p-[10px] w-[180px] text-center bg-[rgba(0,0,0,0.7)] rounded-lg transition-all'>Get Started</a>
           </div>
-      </div>
+        </div>
         <div className='z-0'>
           <img src={heroBackground} alt="hero" />
         </div>
@@ -42,6 +43,14 @@ const Hero = () => {
                 width={1024}
                 height={490}
             alt="hero" />
+          </div>
+        </div>
+        <div className='absolute h-[50px] w-full bottom-[20%] sectionPadding flexCenter flex-col gap-5'>
+          <span className='font-code text-gray-400'>HELPING PEOPLE CREATE BEAUTIFUL CONTENT AT</span>
+          <div className='flex flex-row w-[100%] sectionPadding flexCenter mt-[5rem]'>
+            {companyLogos.map((logo, index) => (
+              <img src={logo} alt='logo' className='mx-[5rem] hover:scale-110 transition-all'/>
+            ))}
           </div>
         </div>
       </div>
