@@ -1,6 +1,6 @@
 import React from 'react'
 import { brainwaveServices } from '../constants'
-import { check, service1, service2, service3 } from '../assets'
+import { check, loading, service1, service2, service3 } from '../assets'
 
 const Services = () => {
   return (
@@ -37,7 +37,10 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        <div className='flex bg-black flex-row absolute lg:w-[50%] w-[90%] justify-center bottom-10 left-[50%] translate-x-[-50%] hidden'>AI is generating</div>
+        <div className='flex flex-row absolute lg:w-[50%] w-[90%] 
+        justify-start bottom-5 left-[50%] translate-x-[-50%] border-[1px] border-gray-800 rounded-[20px] py-3 pl-5 bg-[rgba(0,0,0,0.3)]'>
+          <img src={loading} alt="" className="w-5 h-5 mr-4"/>
+          AI is generating</div>
       </div>
       <div className='flex flex-col lg:flex-row hidden'>
         <div className='flex flex-col'>
