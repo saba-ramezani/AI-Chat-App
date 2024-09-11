@@ -1,5 +1,5 @@
 import React from 'react'
-import { brainwaveServices } from '../constants'
+import { brainwaveServices, brainwaveServicesIcons } from '../constants'
 import { check, loading, service1, service2, service3 } from '../assets'
 
 const Services = () => {
@@ -42,8 +42,9 @@ const Services = () => {
           <img src={loading} alt="" className="w-5 h-5 mr-4"/>
           AI is generating</div>
       </div>
-      <div className='grid gap-5 lg:grid-cols-2 w-[90%]'>
-        <div className='flex flex-col border-[1px] border-gray-800 bg-circulat-pink-dark-gradient w-[100%] rounded-[20px] inset-0 relative h-[700px]'>
+      <div className='grid gap-5 xl:grid-cols-2 w-[90%]'>
+        <div className='flex flex-col border-[1px] border-gray-800 bg-circulat-pink-dark-gradient w-[100%]
+         rounded-[20px] inset-0 relative h-[700px]'>
           <img
             src={service2}
             className="h-full w-full object-cover rounded-[20px]"
@@ -59,11 +60,34 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-col border-[1px] border-gray-800 bg-circulat-pink-dark-gradient w-[100%] relative rounded-[20px]'>
-          <h1>Video generation</h1>
-          <p>The world’s most powerful AI photo and video art generation engine. What will you create?</p>
-          <div></div>
-          <img src={service3} alt="" />
+        <div className='flex flex-col border-[1px] border-gray-800 bg-[rgba(21,19,29,255)] w-[100%] relative rounded-[20px] p-5 h-[700px]'>
+          <h1 className='h4 mb-4 px-10 pt-10'>Video generation</h1>
+          <p className='body-2 mb-[2rem] text-n-3 px-10 leading-7'>The world’s most powerful AI photo and video art generation engine. What will you create?</p>
+          <div className='flex flex-row w-full justify-around md:justify-between px-0 md:px-10 mb-[2rem] items-center'>
+            {brainwaveServicesIcons.map((item, index) => {
+              if (index === 2) {
+                return (
+                  <div className='bg-conic-gradient rounded-[30%] p-[2px] md:p-1'>
+                    <img src={item} alt="service" width={24} height={24} className='bg-n-6 w-10 h-10 p-2 md:p-4 rounded-[30%] md:h-15 md:w-15 xl:h-12 xl:w-12 2xl:h-15 2xl:w-15'/>
+                  </div>
+                )
+              } else {
+                return (
+                  <img src={item} alt="service" width={24} height={24} className='bg-n-6 w-10 h-10 p-2 md:p-4 rounded-[30%] md:h-15 md:w-15 xl:h-12 xl:w-12 2xl:h-15 2xl:w-15'/>
+
+                )
+              }
+            })}
+          </div>
+          <div className="relative h-[25rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+            <img 
+              src={service3}
+              className="w-full h-full object-cover"
+              width={520}
+              height={400}
+              alt="Scary robot"
+            />
+          </div>
         </div>
         <div></div>
       </div>
