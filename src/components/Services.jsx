@@ -4,7 +4,7 @@ import { check, loading, service1, service2, service3 } from '../assets'
 
 const Services = () => {
   return (
-    <section className='sectionPadding flexCenter flex-col pt-[100px] pb-[1000px] justify-center items-center'>
+    <section className='sectionPadding flexCenter flex-col pt-[100px] pb-[100px] justify-center items-center'>
       <div className='flex flex-col justify-center items-center pb-[100px]'>
         <h1 className='h2'>Generative AI made for creators</h1>
         <p className='body-2 mt-4 text-n-4'>Brainwave unlocks the potential of AI-powered applications</p>
