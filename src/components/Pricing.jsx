@@ -66,6 +66,7 @@ const Pricing = () => {
           <PricingCard key={index} {...item} /> 
         ))}
       </div>
+      <a className='mt-20 capitalize font-bold border-b-2 cursor-pointer hover:text-purple-300 transition-all' href="">SEE THE FULL DETAILS</a>
     </section>
   )
 }
