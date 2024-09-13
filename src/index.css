@@ -14,7 +14,7 @@
 
 
 .sectionPadding {
-  @apply px-[0px] border-[0px] border-gray-800 mx-[40px] md:px-[10%] md:border-t-[1px] md:border-x-[1px] md:mx-[40px]
+  @apply px-[0px] border-[0px] border-gray-800 mx-[40px] md:px-[10%] border-t-[1px] md:border-x-[1px] md:mx-[40px]
 }
 
 

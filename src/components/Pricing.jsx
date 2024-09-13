@@ -52,7 +52,7 @@ const PricingCard = ({id, title, description, price, features}) => (
 
 const Pricing = () => {
   return (
-    <section className='sectionPadding flexCenter relative flex-col pb-[100px]'>
+    <section className='sectionPadding flexCenter relative flex-col pb-[100px] pt-[100px]'>
       <div className='relative w-full h-full justify-center items-center hidden md:block'>
         <img src={smallSphere} alt="" className='relative left-[50%] top-[50%] translate-x-[-50%] scale-50'/>
         <img src={stars} alt="" className='absolute top-0 left-0 w-full h-full' />
