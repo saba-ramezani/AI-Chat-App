@@ -4,9 +4,9 @@ import { brainwaveSymbol, check, curve1, curve2 } from "../assets";
 
 const Collaboration = () => {
   return (
-    <section className='sectionPadding flexCenter flex-col lg:flex-row pt-[100px] pb-[100px]'>
-      <div className='flex flex-col  max-w-[35rem]'>
-        <h2 className="h2 mb-8 md:mb-15">
+    <section className='sectionPadding flexCenter flex-col xl:flex-row pt-[100px] pb-[100px]'>
+      <div className='flex flex-col  max-w-[35rem] xl:justify-start justify-center xl:items-start items-center'>
+        <h2 className="h2 mb-8 md:mb-15 xl:text-left text-center">
           AI Chat App br for <br /> seamless collaboration
         </h2>
         <ul className='flex list-none flex-col gap-10'>
@@ -28,9 +28,9 @@ const Collaboration = () => {
           className='font-mono hover:scale-105 text-[16px] p-[10px] w-[180px] text-center bg-[rgba(0,0,0,0.7)] rounded-lg transition-all'>Get Started</a>
         </div>
       </div>
-      <div className='flex flex-row  flex-1  items-end justify-end'>
-        <div className='flex flex-col'>
-          <p className='body-2 mt-3 text-n-4 max-w-[25rem] ml-10 mb-[5rem]'>{collabText}</p>
+      <div className='flex flex-row  flex-1  xl:justify-end justify-center xl:items-end items-center mt-[100px] xl:mt-0'>
+        <div className='flex flex-col  justify-center items-center'>
+          <p className='body-2 mt-3 text-n-4 max-w-[25rem] xl:ml-10 ml-0 mb-[5rem] xl:text-left text-center'>{collabText}</p>
           <div className='rounded-full border-[1px] border-gray-600 size-[22rem] relative'>
             <div className='rounded-full border-[1px] border-gray-600 size-[15rem] center'></div>
             <div className='rounded-full bg-conic-gradient size-[6rem] center'>
