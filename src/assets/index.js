@@ -75,7 +75,13 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+
+import menu from "./menu.svg";
+import close from "./close.svg";
+
 export {
+  menu,
+  close,
   brainwave,
   check,
   check2,
