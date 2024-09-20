@@ -31,7 +31,7 @@ const Collaboration = () => {
       <div className='flex flex-row  flex-1  xl:justify-end justify-center xl:items-end items-center mt-[100px] xl:mt-0'>
         <div className='flex flex-col  justify-center items-center'>
           <p className='body-2 mt-3 text-n-4 max-w-[25rem] xl:ml-10 ml-0 mb-[5rem] xl:text-left text-center'>{collabText}</p>
-          <div className='rounded-full border-[1px] border-gray-600 size-[22rem] relative'>
+          <div className='rounded-full border-[1px] border-gray-600 size-[22rem] relative scale-75 sm:scale-100'>
             <div className='rounded-full border-[1px] border-gray-600 size-[15rem] center'></div>
             <div className='rounded-full bg-conic-gradient size-[6rem] center'>
               <div className='bg-black rounded-full size-[5.5rem] center'>
